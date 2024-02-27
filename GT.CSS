@@ -42,7 +42,7 @@
 
  p {
     margin: 10px 0;
- }
+ } 
 
  h1,
  h2 {
@@ -51,13 +51,17 @@
     margin: 10px 0;
  }
 
+ p {
+   margin: 10px 0;
+ }
+
 
 /* navigation */
 
  .navbar {
     background-color: var(--orange-red);
     color: #fff;
-    height: 7vh;
+    height: 64px;
  }
 
  .navlogo img {
@@ -92,14 +96,30 @@
     max-width: 90vw;
     align-items: center;
  }
+/* heropage */
 
+.heropage{
+   height: 500px;
+   background-color: var(--orange-red);
+   color: #fff;
+   position: relative;
+}
 
+.heropage h1 {
+   font-size: 70px;
+   font-weight: 700;
+}
+
+.heropage p {
+   margin-top: 20px 0;
+}
 /* Utilities */
 
 .container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 40px;
+    overflow: auto;
 }
 
 .flex {
