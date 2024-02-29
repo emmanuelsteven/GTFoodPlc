@@ -112,6 +112,13 @@
 
 .heropage p {
    margin-top: 20px 0;
+   width: 360px;
+}
+
+.heropage-text {
+   position: relative;
+   padding: 0 20px;
+   align-items: center;
 }
 
 /* slider */
@@ -228,4 +235,12 @@ transition: 1s;
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.btn{
+   border: none;
+   background-color: var(--orange-red);
+   color: #fff;
+   border-radius: 4px;
+   padding: 5px;
 }
