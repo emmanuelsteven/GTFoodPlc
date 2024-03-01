@@ -126,14 +126,16 @@
    width: 800px;
    height: 500px;
    border-radius: 10px;
-   /* overflow: hidden; */
-   overflow: visible;
+   overflow: hidden;
+   /* overflow: visible; */
+  
 }
 
 .slides{
    width: 500%;
    height: 500px;
    display: flex;
+ 
 }
 
 .slides input {
@@ -221,6 +223,17 @@ transition: 1s;
    background: #fff;
 }
 
+.heropage::before,
+.heropage::after {
+   content: '';
+   position: absolute;
+   height: 100px;
+   bottom: -70px;
+   right: 0;
+   left: 0;
+   background-color: #fff;
+   transform: skewY(-3deg);
+}
 /* Utilities */
 
 .container {
@@ -230,6 +243,9 @@ transition: 1s;
     overflow: auto;
 }
 
+ .grid{
+   grid-template-columns: repeat(1fr);
+ }
 .flex {
     display: flex;
     justify-content: center;
