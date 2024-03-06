@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> <%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="./src/styles/GT.css" />
+  </head>
+
+  <body>
+    <section class="navbar">
+      <div class="container flex">
+        <div class="navlogo"><img id="logoImg" alt="" /></div>
+        <nav>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Masterclass</a></li>
+            <li><a href="#">Exhibitors</a></li>
+            <li><a href="#">Magazines</a></li>
+            <li><a href="#">Highlights</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Apply</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <section class="heropage">
+      <div class="container grid">
+        <div class="slider">
+          <div class="slides">
+            <!--radio btn starts here -->
+            <input type="radio" name="radio-btn" id="radio1" />
+            <input type="radio" name="radio-btn" id="radio2" />
+            <input type="radio" name="radio-btn" id="radio3" />
+            <input type="radio" name="radio-btn" id="radio4" />
+            <!--radion btn ends -->
+            <!--images start-->
+            <div class="slide first">
+              <img id="img1" alt="" />
+            </div>
+            <div class="slide">
+              <img id="img2" alt="" />
+            </div>
+            <div class="slide">
+              <img id="img3" alt="" />
+            </div>
+            <div class="slide">
+              <img id="img4" alt="" />
+            </div>
+            <!--images end-->
+            <!--auto navigation start-->
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+            </div>
+            <!--auto navigation end-->
+          </div>
+          <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+          </div>
+          </div>
+          <div class="heropage-text">
+            <h1>A Celebration of Food</h1>
+            <br>
+              Discover a World of Flavors at the GTCO Food & Drink Festival</br> A
+              Celebration of Food for Food Enthusiasts and Small Businesses
+            </p>
+            <a href="#" class="btn btn-outline">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
